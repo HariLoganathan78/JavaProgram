@@ -1,0 +1,7 @@
+class Main{
+public static void main(String args[])
+{
+int i=5;
+System.out.println(i>0 ? "Positive" : i<0 ? "Negative" : "Zero");
+}
+}
