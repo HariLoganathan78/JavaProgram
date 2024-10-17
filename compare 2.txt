@@ -1,0 +1,8 @@
+class Main{
+public static void main(String args[])
+{
+int i=5;
+int j=6;
+System.out.println(i>j ? "i is big" : i<j ? "j is big" : "i and j are equal");
+}
+}

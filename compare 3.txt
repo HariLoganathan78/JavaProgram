@@ -1,0 +1,9 @@
+class Main{
+public static void main(String args[])
+{
+int i=5;
+int j=6;
+int k=7;
+System.out.println(i>j && i>k ? "i is big" : j>i && j>k ? "j is big" : k>i && k>j ? "k is big" : i==j && i!=k ? "i and j are equal" : i!=j && i==k ? "i and k are equal" : i!=j && j==k ? "k and j are equal" : "i,j and k are equal");
+}
+}
